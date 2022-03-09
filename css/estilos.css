@@ -1,0 +1,92 @@
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    background-color: whitesmoke;
+}
+
+.bg-primary {
+    background-color: #733FC8 !important;
+}
+
+.bg-success {
+    background-color: #49556B !important;
+}
+
+.bg-dark {
+    background-color: #18202D !important;
+}
+
+.bg-secondary {
+    background-color: #EDF2F8 !important;
+}
+
+.d-flex {
+    align-items: center;
+}
+
+.d-flex img {
+    width: 40px;
+    border-color: #b9babb !important;
+}
+
+.card {
+    border: none;
+}
+
+.fondo-card {
+    background-image: url(../img/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 85% top;
+}
+
+.container {
+    width: 1200px;
+}
+
+.card-body {
+    padding: 2em;
+}
+
+.card-body h6 {
+    opacity: 0.8;
+    font-weight: 600;
+}
+
+.card-body .ps-3 h6 {
+    font-size: 1em;
+}
+
+.card-body .ps-3 p {
+    opacity: 0.5;
+    font-size: 0.9em;
+}
+
+.text h6 {
+    font-size: large;    
+}
+
+.text p {
+    font-weight: 500;
+    color: #b9babb;
+}
+
+.bg-secondary .card-body p {
+    color: #49556B;
+}
+
+.card:hover {
+    transform: rotate(0.01turn);
+}
+
+@media (min-width: 992px) {
+    .alto-100 {
+        height: 100vh;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: initial;
+    }
+}
